@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--very-light-gray);
+  padding: 1rem 3rem;
+  border-radius: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.4rem;
+  border: 2px solid transparent;
+
+  &--orange {
+    color: var(--bright-orange);
+  }
+
+  &--dark-cyan {
+    color: var(--dark-cyan);
+  }
+
+  &--very-dark-cyan {
+    color: var(--vary-dark-cyan);
+  }
+
+  &:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background: transparent;
+    color: var(--very-light-gray);
+    cursor: pointer;
+  }
+}
